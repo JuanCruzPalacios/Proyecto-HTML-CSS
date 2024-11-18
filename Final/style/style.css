@@ -1,4 +1,4 @@
-.index {
+.imagen_fondo {
   padding-top: 90px;  
   background-image: url('../imagenes/restaurante.webp');
   background-size: cover;   
@@ -42,7 +42,8 @@
   z-index: 1000;
 }
 
-footer {
+.cajainfo  {
+  margin-top: 50px;
   border-top: #593701 3px solid;
 }
 
