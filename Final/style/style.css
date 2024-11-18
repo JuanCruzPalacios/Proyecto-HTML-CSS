@@ -8,9 +8,24 @@
 }
 
 .Locales{
-
   margin-top: 100px;
+  background-color: rgb(255, 254, 242);
+}
 
+
+#imagen_mapa_locales{
+  border: #593701 3px solid;
+  padding: auto;
+  border-radius: 17px;
+}
+
+#titulo_locales { 
+  color: #593701;
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-size: 74px;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .barra {
