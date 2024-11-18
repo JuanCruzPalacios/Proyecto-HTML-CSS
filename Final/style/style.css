@@ -58,7 +58,6 @@ footer {
   padding: 30px;
 }
 
-/* Iconos */
 .ion--location-sharp {
   display: inline-block;
   width: 1.5em;
@@ -116,3 +115,10 @@ footer {
   font-weight: 300;
   font-style: normal;
 }
+
+#premiosCarrusel{
+
+  padding-bottom: 50px;
+
+}
+
