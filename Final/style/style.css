@@ -7,6 +7,24 @@
   background-repeat: no-repeat;  
 }
 
+.imagen_fondo2 {
+  padding-top: 90px;  
+  background-image: url('../imagenes/fondogris.png');
+  background-size: cover;   
+  background-position: center center;
+  background-attachment: fixed; 
+  background-repeat: no-repeat;  
+}
+
+.imagen_fondo_menu {
+  padding-top: 90px;  
+  background-image: url('../imagenes/ImagenMenu.jpg');
+  background-size: cover;   
+  background-position: center center;
+  background-attachment: fixed; 
+  background-repeat: no-repeat;  
+}
+
 .Locales{
   margin-top: 100px;
   background-color: rgb(255, 254, 242);
