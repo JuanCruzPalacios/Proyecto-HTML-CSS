@@ -1,4 +1,4 @@
-.imagen_fondo {
+.index {
   padding-top: 90px;  
   background-image: url('../imagenes/restaurante.webp');
   background-size: cover;   
@@ -28,6 +28,11 @@
   font-style: normal;
 }
 
+.premios{
+  padding-top: 70px;  
+  
+}
+
 .barra {
   border-bottom: #593701 3px solid;
   position: fixed;
@@ -37,10 +42,8 @@
   z-index: 1000;
 }
 
-
-.cajainfo {
+footer {
   border-top: #593701 3px solid;
-  margin-top: 100px;
 }
 
 #principal {
