@@ -65,8 +65,9 @@
 }
 
 .recuadro {
-  background-color: #b68e4d;
+  background-color: #ffebcc;
   border-radius: 17px;
+  border: #593701 3px solid;
 }
 
 .eliminar_link {
@@ -76,6 +77,7 @@
 
 .foto_comida {
   border-radius: 17px;
+  border: #593701 3px solid;
 }
 
 
