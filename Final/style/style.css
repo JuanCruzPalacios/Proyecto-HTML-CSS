@@ -1,10 +1,16 @@
-body {
+.imagen_fondo {
   padding-top: 90px;  
   background-image: url('../imagenes/restaurante.webp');
   background-size: cover;   
   background-position: center center;
   background-attachment: fixed; 
   background-repeat: no-repeat;  
+}
+
+.Locales{
+
+  margin-top: 100px;
+
 }
 
 .barra {
@@ -53,11 +59,6 @@ body {
   border-radius: 17px;
 }
 
-.lista_locales { 
-
-  background-color: white;
-
-}
 
 .formulario-container {
   background-color: rgba(255, 255, 255, 0.8); 

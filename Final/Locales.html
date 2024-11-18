@@ -4,43 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
-
-
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
-
-
     <title>Restaurante</title>
 </head>
-<body class="bg-warning-subtle index">
+<body class="bg-warning-subtle Locales">
   <div class="barra">
     <nav class="navbar navbar-expand-lg bg-body-tertiary bg-warning-subtle">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="imagenes/logo.webp" alt="Logo del restaurente" width="50" height="50"></a>
+          <a class="navbar-brand" href="#"><img src="imagenes/logo.webp" alt="Logo del restaurante" width="50" height="50"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active texto" aria-current="page" href="index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link texto" href="Menu.html">Menú</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link texto" href="Reservar.html">Reservar</a>
-              </li>
+              <li class="nav-item"><a class="nav-link active texto" href="index.html">Inicio</a></li>
+              <li class="nav-item"><a class="nav-link texto" href="Menu.html">Menú</a></li>
+              <li class="nav-item"><a class="nav-link texto" href="Reservar.html">Reservar</a></li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle texto" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                   Nosotros
-                </a>
+                <a class="nav-link dropdown-toggle texto" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Nosotros</a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item texto"  href="Locales.html">Locales</a></li>
+                  <li><a class="dropdown-item texto" href="Locales.html">Locales</a></li>
                   <li><a class="dropdown-item texto" href="Premios.html">Premios</a></li>
                 </ul>
               </li>
@@ -48,62 +34,160 @@
           </div>
         </div>
       </nav>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Mapa -->
+      <div class="col">
+        <img src="imagenes/mapa.jpg" width="640" height="320" alt="Mapa de locales disponibles">
       </div>
-
-      <div class="container-fluid">
-
-        <div class="row">
-
-          <div class="col"> <img src="imagenes/mapa.jpg" width="640" height="320"  alt="Mapa de locales disponibles"></div>
-          <div class="col lista_locales">
-            
-            <p class="d-inline-flex gap-1 boton_locales">
-              <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                Argentina
-              </a>
-            </p>
-            <div class="collapse" id="collapseExample">
-              <div class="card card-body">
-                Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+      <!-- Lista de Locales -->
+      <div class="col lista_locales">
+        <div class="container my-4">
+          <div class="accordion" id="accordionMenu">
+            <!-- Argentina -->
+            <div class="accordion-item">
+              <div class="accordion-header" id="headingArgentina">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseArgentina" aria-expanded="false" aria-controls="collapseArgentina">
+                  Argentina
+                </button>
+              </div>
+              <div id="collapseArgentina" class="accordion-collapse collapse" aria-labelledby="headingArgentina" data-bs-parent="#accordionMenu">
+                <div class="accordion-body">
+                  <p><strong>Palermo, Buenos Aires</strong><br>José A. Cabrera 5099/5127<br>Email: <a href="mailto:info@lacabrera.com.ar">info@lacabrera.com.ar</a><br>Teléfono: <a href="tel:+5491168754000">+54 9 11 6875-4000</a></p>
+                </div>
               </div>
             </div>
-          
-          </div>
-
-        </div>
-
-      </div>
-
-      <div class="bg-warning-subtle cajainfo">
-
-        <div class="text-center"> <img src="imagenes/logo.webp" alt="Logo de restaurante" width="256" height="256"></div>
-
-
-        <div class="container-fluid"> 
-
-            <div class = "row">
-                
-                <div class="col-12 contacto text-center col-md"> 
-                    <span class="ion--location-sharp"></span>
-                    <p class = "texto"><span class = "titulo">Ubicacion:</span> <br> Jose antonio 2312 <br> Pablo Gutierrez <br></p></div>
-
-                <div class="col-12 contacto text-center col-md"> 
-                    <span class="fa--phone"></span>
-                    <p class = "texto"><span class="titulo">Telefonos: </span><br>  +54 9 11 4323-3212 <br> +54 9 11 2131-2324 <br></p></div>
-
-                <div class="col-12 contacto text-center col-md">
-                    <span class="mdi--clock"></span>
-                     <p class = "texto"><span class="titulo">Horarios:</span> <br> Abiertos todos los dias <br> De 14 a 23 hs <br></p>
-                    
-                    </div>
-
+            <!-- Chile -->
+            <div class="accordion-item">
+              <div class="accordion-header" id="headingChile">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseChile" aria-expanded="false" aria-controls="collapseChile">
+                  Chile
+                </button>
+              </div>
+              <div id="collapseChile" class="accordion-collapse collapse" aria-labelledby="headingChile" data-bs-parent="#accordionMenu">
+                <div class="accordion-body">
+                  <p><strong>Santiago, Chile</strong><br>Avenida Las Condes 12345<br>Email: <a href="mailto:info@restaurante.cl">info@restaurante.cl</a><br>Teléfono: <a href="tel:+56987654321">+56 9 8765-4321</a></p>
+                </div>
+              </div>
             </div>
-
+            <!-- Colombia -->
+            <div class="accordion-item">
+              <div class="accordion-header" id="headingColombia">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseColombia" aria-expanded="false" aria-controls="collapseColombia">
+                  Colombia
+                </button>
+              </div>
+              <div id="collapseColombia" class="accordion-collapse collapse" aria-labelledby="headingColombia" data-bs-parent="#accordionMenu">
+                <div class="accordion-body">
+                  <p><strong>Bogotá, Colombia</strong><br>Carrera 15 #85-50<br>Email: <a href="mailto:info@restaurante.co">info@restaurante.co</a><br>Teléfono: <a href="tel:+5712345678">+57 1 234 5678</a></p>
+                </div>
+              </div>
+            </div>
+            <!-- España -->
+            <div class="accordion-item">
+              <div class="accordion-header" id="headingEspaña">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEspaña" aria-expanded="false" aria-controls="collapseEspaña">
+                  España
+                </button>
+              </div>
+              <div id="collapseEspaña" class="accordion-collapse collapse" aria-labelledby="headingEspaña" data-bs-parent="#accordionMenu">
+                <div class="accordion-body">
+                  <p><strong>Madrid, España</strong><br>Calle Gran Vía 123<br>Email: <a href="mailto:info@restaurante.es">info@restaurante.es</a><br>Teléfono: <a href="tel:+34912345678">+34 912 345 678</a></p>
+                </div>
+              </div>
+            </div>
+            <!-- Estados Unidos -->
+            <div class="accordion-item">
+              <div class="accordion-header" id="headingUSA">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseUSA" aria-expanded="false" aria-controls="collapseUSA">
+                  Estados Unidos
+                </button>
+              </div>
+              <div id="collapseUSA" class="accordion-collapse collapse" aria-labelledby="headingUSA" data-bs-parent="#accordionMenu">
+                <div class="accordion-body">
+                  <p><strong>Miami, Florida</strong><br>123 Main Street<br>Email: <a href="mailto:info@restaurant.us">info@restaurant.us</a><br>Teléfono: <a href="tel:+13051234567">+1 305 123 4567</a></p>
+                </div>
+              </div>
+            </div>
+            <!-- Filipinas -->
+            <div class="accordion-item">
+              <div class="accordion-header" id="headingFilipinas">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFilipinas" aria-expanded="false" aria-controls="collapseFilipinas">
+                  Filipinas
+                </button>
+              </div>
+              <div id="collapseFilipinas" class="accordion-collapse collapse" aria-labelledby="headingFilipinas" data-bs-parent="#accordionMenu">
+                <div class="accordion-body">
+                  <p><strong>Manila, Filipinas</strong><br>123 Makati Avenue<br>Email: <a href="mailto:info@restaurante.ph">info@restaurante.ph</a><br>Teléfono: <a href="tel:+6321234567">+63 2 123 4567</a></p>
+                </div>
+              </div>
+            </div>
+            <!-- México -->
+            <div class="accordion-item">
+              <div class="accordion-header" id="headingMexico">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMexico" aria-expanded="false" aria-controls="collapseMexico">
+                  México
+                </button>
+              </div>
+              <div id="collapseMexico" class="accordion-collapse collapse" aria-labelledby="headingMexico" data-bs-parent="#accordionMenu">
+                <div class="accordion-body">
+                  <p><strong>Ciudad de México</strong><br>Avenida Reforma 123<br>Email: <a href="mailto:info@restaurante.mx">info@restaurante.mx</a><br>Teléfono: <a href="tel:+525512345678">+52 55 1234 5678</a></p>
+                </div>
+              </div>
+            </div>
+            <!-- Paraguay -->
+            <div class="accordion-item">
+              <div class="accordion-header" id="headingParaguay">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseParaguay" aria-expanded="false" aria-controls="collapseParaguay">
+                  Paraguay
+                </button>
+              </div>
+              <div id="collapseParaguay" class="accordion-collapse collapse" aria-labelledby="headingParaguay" data-bs-parent="#accordionMenu">
+                <div class="accordion-body">
+                  <p><strong>Asunción, Paraguay</strong><br>Avenida Central 456<br>Email: <a href="mailto:info@restaurante.py">info@restaurante.py</a><br>Teléfono: <a href="tel:+595212345678">+595 21 234 5678</a></p>
+                </div>
+              </div>
+            </div>
+            <!-- Perú -->
+            <div class="accordion-item">
+              <div class="accordion-header" id="headingPeru">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePeru" aria-expanded="false" aria-controls="collapsePeru">
+                  Perú
+                </button>
+              </div>
+              <div id="collapsePeru" class="accordion-collapse collapse" aria-labelledby="headingPeru" data-bs-parent="#accordionMenu">
+                <div class="accordion-body">
+                  <p><strong>Lima, Perú</strong><br>Calle Principal 789<br>Email: <a href="mailto:info@restaurante.pe">info@restaurante.pe</a><br>Teléfono: <a href="tel:+51112345678">+51 1 123 4567</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+        
+    </div>
+  </div>
 
+  <div class="bg-warning-subtle cajainfo">
+    <div class="text-center">
+      <img src="imagenes/logo.webp" alt="Logo de restaurante" width="256" height="256">
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 contacto text-center col-md">
+          <p class="texto"><strong>Ubicación:</strong><br>José Antonio 2312<br>Pablo Gutiérrez</p>
+        </div>
+        <div class="col-12 contacto text-center col-md">
+          <p class="texto"><strong>Teléfonos:</strong><br>+54 9 11 4323-3212<br>+54 9 11 2131-2324</p>
+        </div>
+        <div class="col-12 contacto text-center col-md">
+          <p class="texto"><strong>Horarios:</strong><br>Abiertos todos los días<br>De 14 a 23 hs</p>
+        </div>
       </div>
+    </div>
+  </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
