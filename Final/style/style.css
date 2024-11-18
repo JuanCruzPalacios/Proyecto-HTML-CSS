@@ -1,10 +1,15 @@
-body {
+.index {
   padding-top: 90px;  
   background-image: url('../imagenes/restaurante.webp');
   background-size: cover;   
   background-position: center center;
   background-attachment: fixed; 
   background-repeat: no-repeat;  
+}
+
+.premios{
+  padding-top: 70px;  
+  
 }
 
 .barra {
