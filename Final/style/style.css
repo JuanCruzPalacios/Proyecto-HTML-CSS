@@ -8,17 +8,13 @@
 }
 
 .imagen_fondo2 {
-  padding-top: 90px;  
-  background-image: url('../imagenes/fondogris.png');
-  background-size: cover;   
-  background-position: center center;
-  background-attachment: fixed; 
-  background-repeat: no-repeat;  
+  padding-top: 130px;   
+  background-color: gray; 
 }
 
 .imagen_fondo_menu {
-  padding-top: 90px;  
-  background-image: url('../imagenes/ImagenMenu.jpg');
+  padding-top: 130px;  
+  background-image: url('../imagenes/restaurante.webp');
   background-size: cover;   
   background-position: center center;
   background-attachment: fixed; 
