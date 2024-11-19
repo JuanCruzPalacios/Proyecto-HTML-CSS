@@ -33,6 +33,13 @@
 }
 
 #titulo_locales { 
+  color: beige;
+  border-radius: 17px;  
+  text-shadow: 
+        -3px -3px 0 rgba(0, 0, 0, 0.473),
+        3px -3px 0 rgba(0, 0, 0, 0.473), 
+        -3px 3px 0 rgba(0, 0, 0, 0.473),  
+        3px 3px 0 rgba(0, 0, 0, 0.473); 
   color: #593701;
   font-family: "EB Garamond", serif;
   font-optical-sizing: auto;
