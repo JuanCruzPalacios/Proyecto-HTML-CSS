@@ -40,7 +40,6 @@
         3px -3px 0 rgba(0, 0, 0, 0.473), 
         -3px 3px 0 rgba(0, 0, 0, 0.473),  
         3px 3px 0 rgba(0, 0, 0, 0.473); 
-  color: #593701;
   font-family: "EB Garamond", serif;
   font-optical-sizing: auto;
   font-size: 74px;
@@ -181,4 +180,13 @@
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   border-radius: 10px;
+}
+
+footer{
+  border-top: rgb(175, 175, 175) 3px solid;
+  padding: 13px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 50px;
 }
