@@ -67,6 +67,7 @@
 
 #principal {
   height: 850px;
+  padding: 200px;
 }
 
 .linea_vacia {
@@ -96,6 +97,22 @@
 .foto_comida {
   border-radius: 17px;
   border: #593701 3px solid;
+}
+
+#titulo_principal { 
+  text-align: center;
+  color: beige;
+  border-radius: 17px;  
+  text-shadow: 
+        -3px -3px 0 rgba(0, 0, 0, 0.473),
+        3px -3px 0 rgba(0, 0, 0, 0.473), 
+        -3px 3px 0 rgba(0, 0, 0, 0.473),  
+        3px 3px 0 rgba(0, 0, 0, 0.473); 
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-size: 150px;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .formulario-container {
