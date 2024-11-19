@@ -30,7 +30,6 @@
   background-color: rgb(255, 254, 242);
 }
 
-
 #imagen_mapa_locales{
   border: #593701 3px solid;
   padding: auto;
@@ -48,7 +47,6 @@
 
 .premios{
   padding-top: 70px;  
-  
 }
 
 .barra {
@@ -97,7 +95,6 @@
   border-radius: 17px;
   border: #593701 3px solid;
 }
-
 
 .formulario-container {
   background-color: rgba(255, 255, 255, 0.8); 
@@ -164,9 +161,7 @@
 }
 
 #premiosCarrusel{
-
   padding-bottom: 50px;
-
 }
 
 .logito{
@@ -177,4 +172,10 @@
   width: 60%; 
   max-width: 800px; 
   margin: 0 auto; 
+}
+
+.fondo-translucido {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
 }
