@@ -1,5 +1,5 @@
 .imagen_fondo {
-  padding-top: 130px;  
+  padding-top: 90px;  
   background-image: url('../imagenes/restaurante.webp');
   background-size: cover;   
   background-position: center center;
@@ -8,13 +8,17 @@
 }
 
 .imagen_fondo2 {
-  padding-top: 130px;   
-  background-color: gray;
+  padding-top: 90px;  
+  background-image: url('../imagenes/fondogris.png');
+  background-size: cover;   
+  background-position: center center;
+  background-attachment: fixed; 
+  background-repeat: no-repeat;  
 }
 
 .imagen_fondo_menu {
-  padding-top: 130px;  
-  background-image: url('../imagenes/restaurante.webp');
+  padding-top: 90px;  
+  background-image: url('../imagenes/ImagenMenu.jpg');
   background-size: cover;   
   background-position: center center;
   background-attachment: fixed; 
@@ -22,9 +26,9 @@
 }
 
 .Locales{
+  margin-top: 100px;
   background-color: rgb(255, 254, 242);
 }
-
 
 #imagen_mapa_locales{
   border: #593701 3px solid;
@@ -33,13 +37,7 @@
 }
 
 #titulo_locales { 
-  color: beige;
-  border-radius: 17px;  
-  text-shadow: 
-        -3px -3px 0 rgba(0, 0, 0, 0.473),
-        3px -3px 0 rgba(0, 0, 0, 0.473), 
-        -3px 3px 0 rgba(0, 0, 0, 0.473),  
-        3px 3px 0 rgba(0, 0, 0, 0.473); 
+  color: #593701;
   font-family: "EB Garamond", serif;
   font-optical-sizing: auto;
   font-size: 74px;
@@ -49,7 +47,6 @@
 
 .premios{
   padding-top: 70px;  
-  
 }
 
 .barra {
@@ -64,7 +61,6 @@
 .cajainfo  {
   margin-top: 50px;
   border-top: #593701 3px solid;
-  padding-bottom: 50px;
 }
 
 #principal {
@@ -72,7 +68,7 @@
 }
 
 .linea_vacia {
-  height: 50px;
+  height: 200px;
 }
 
 .encabezado {
@@ -99,7 +95,6 @@
   border-radius: 17px;
   border: #593701 3px solid;
 }
-
 
 .formulario-container {
   background-color: rgba(255, 255, 255, 0.8); 
@@ -166,9 +161,7 @@
 }
 
 #premiosCarrusel{
-
   padding-bottom: 50px;
-
 }
 
 .logito{
@@ -181,11 +174,8 @@
   margin: 0 auto; 
 }
 
-footer{
-  border-top: rgb(175, 175, 175) 3px solid;
-  padding: 13px;
-  background-color: black;
-  color: white;
-  text-align: center;
-  height: 50px;
+.fondo-translucido {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
 }
