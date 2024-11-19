@@ -64,6 +64,7 @@
 .cajainfo  {
   margin-top: 50px;
   border-top: #593701 3px solid;
+  padding-bottom: 50px;
 }
 
 #principal {
@@ -178,4 +179,13 @@
   width: 60%; 
   max-width: 800px; 
   margin: 0 auto; 
+}
+
+footer{
+  border-top: rgb(175, 175, 175) 3px solid;
+  padding: 13px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 50px;
 }
